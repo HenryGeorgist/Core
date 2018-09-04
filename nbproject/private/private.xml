@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Implementations/Messaging/MessageReceiver.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Interfaces/Messaging/MessageReceiver.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Abstractions/Utilities/Flag.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/test/Implementations/Messaging/MessageTest.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Implementations/Messaging/MessageWithSender.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Implementations/Validation/ErrorLevel.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Implementations/Messaging/MessageWithPayload.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Implementations/Messaging/MessageHub.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Interfaces/Validation/ValidationRule.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Implementations/Messaging/Message.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/test/Implementations/Messaging/MessageHubTest.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/test/Implementations/Messaging/MessageWithSenderTest.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/test/Implementations/Messaging/MessageWithPayloadTest.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Interfaces/Validation/Validatable.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Implementations/Validation/ErrorMessage.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Interfaces/Messaging/MessageWithSender.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Interfaces/Messaging/Message.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/test/Implementations/Validation/ErrorLevelTest.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/src/Interfaces/Validation/ErrorMessage.java</file>
+            <file>file:/Users/willyp/NetBeansProjects/HecCore/test/Implementations/Validation/ErrorMessageTest.java</file>
+        </group>
+    </open-files>
+</project-private>
