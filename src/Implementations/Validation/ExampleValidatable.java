@@ -16,17 +16,20 @@ import java.util.HashMap;
  * @author willyp
  */
 class ExampleValidatable implements Validatable {
-    private final int _value;
+    private int _value;
     private boolean _isValid = true;
     private HashMap<String,ValidationRule> _rules;
     private Collection<String> _messages;
     public int getValue(){
         return _value;
     }
+    public void setValue(int val){
+        _value = val;
+    }
     public ExampleValidatable(int value){
         _value = value;
         _messages = new ArrayList<>();
-        ValidationRule valueRule = new Implementations.Validation.ValidationRule(this::validateValue,"Value is greater than 3", ErrorLevel.Major());
+        ValidationRule valueRule = new Implementations.Validation.ValidationRule(this::validateValue,"Value is less than 3", ErrorLevel.Major());
         addValidationRule("Value", valueRule);
     }
     @Override
@@ -56,7 +59,6 @@ class ExampleValidatable implements Validatable {
 
     @Override
     public ErrorLevel validate(String property) {
-        boolean changedState = false;
         for(String p : _rules.keySet()){
             if(property.equals(p)){
                 ErrorLevel ret = _rules.get(p).evaluate();

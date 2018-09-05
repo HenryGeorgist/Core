@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Williams-MacBook-Pro.local" name="Implementations.Validation.ErrorMessageTest" skipped="0" tests="2" time="0.068" timestamp="2018-09-05T20:33:50">
+<testsuite errors="0" failures="0" hostname="Williams-MacBook-Pro.local" name="Implementations.Validation.ErrorMessageTest" skipped="0" tests="2" time="0.073" timestamp="2018-09-05T21:17:11">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="nb.wait.for.caches" value="true" />
@@ -38,7 +38,7 @@
     <property name="user.name" value="willyp" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Implementations.Validation.ErrorMessageTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/willyp/NetBeansProjects/HecCore/build/test/results/TEST-Implementations.Validation.ErrorMessageTest.xml crashfile=/Users/willyp/NetBeansProjects/HecCore/build/junitvmwatcher580932263610884836.properties propsfile=/Users/willyp/NetBeansProjects/HecCore/build/junit3545990779398622300.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Implementations.Validation.ErrorMessageTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/willyp/NetBeansProjects/HecCore/build/test/results/TEST-Implementations.Validation.ErrorMessageTest.xml crashfile=/Users/willyp/NetBeansProjects/HecCore/build/junitvmwatcher8865539396110755043.properties propsfile=/Users/willyp/NetBeansProjects/HecCore/build/junit7173293231328952962.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -322,7 +322,7 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
   </properties>
-  <testcase classname="Implementations.Validation.ErrorMessageTest" name="testGetErrorLevel" time="0.002" />
+  <testcase classname="Implementations.Validation.ErrorMessageTest" name="testGetErrorLevel" time="0.003" />
   <testcase classname="Implementations.Validation.ErrorMessageTest" name="testGetMessage" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

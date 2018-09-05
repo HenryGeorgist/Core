@@ -30,5 +30,9 @@ public interface ValidationRule {
      * @return the current Error Level.
      */
     public Implementations.Validation.ErrorLevel evaluate();
+    /**
+     * Expresses if the validation rule is currently valid or not
+     * @return true if valid false if invalid
+     */
     public boolean getIsValid();
 }
