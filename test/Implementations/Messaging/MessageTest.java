@@ -27,7 +27,6 @@ public class MessageTest {
      */
     @Test
     public void testGetMessage() {
-        System.out.println("getMessage");
         String expResult = MESSAGE;
         String result = message.getMessage();
         assertEquals(expResult, result);

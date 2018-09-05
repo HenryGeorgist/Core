@@ -42,13 +42,10 @@ public class ValidationRuleTest {
      */
     @Test
     public void testGetMessage() {
-        System.out.println("getMessage");
         ValidationRule instance = new ValidationRule(() -> {return true;},"Message",Implementations.Validation.ErrorLevel.Info());
         String expResult = "Message";
         String result = instance.getMessage();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -56,13 +53,10 @@ public class ValidationRuleTest {
      */
     @Test
     public void testGetIsValid() {
-        System.out.println("getIsValid");
         ValidationRule instance = new ValidationRule(() -> {return true;},"Message",Implementations.Validation.ErrorLevel.Info());
         boolean expResult = true;
         boolean result = instance.getIsValid();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,13 +64,10 @@ public class ValidationRuleTest {
      */
     @Test
     public void testGetSeverity() {
-        System.out.println("getSeverity");
         ValidationRule instance = new ValidationRule(() -> {return true;},"Message",Implementations.Validation.ErrorLevel.Info());
         ErrorLevel expResult = Implementations.Validation.ErrorLevel.Info();
         ErrorLevel result = instance.getSeverity();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -84,25 +75,19 @@ public class ValidationRuleTest {
      */
     @Test
     public void testEvaluate() {
-        System.out.println("evaluate");
         ValidationRule instance = new ValidationRule(() -> {return true;},"Message",Implementations.Validation.ErrorLevel.Info());
         ErrorLevel expResult = Implementations.Validation.ErrorLevel.Unassigned();
         ErrorLevel result = instance.evaluate();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
-        /**
+    /**
      * Test of evaluate method, of class ValidationRule.
      */
     @Test
     public void testEvaluate_false() {
-        System.out.println("evaluate");
         ValidationRule instance = new ValidationRule(() -> {return false;},"Message",Implementations.Validation.ErrorLevel.Info());
         ErrorLevel expResult = Implementations.Validation.ErrorLevel.Info();
         ErrorLevel result = instance.evaluate();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 }

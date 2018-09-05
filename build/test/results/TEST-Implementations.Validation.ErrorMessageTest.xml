@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Williams-MacBook-Pro.local" name="Implementations.Messaging.MessageWithPayloadTest" skipped="0" tests="2" time="0.065" timestamp="2018-09-05T20:37:22">
+<testsuite errors="0" failures="0" hostname="Williams-MacBook-Pro.local" name="Implementations.Validation.ErrorMessageTest" skipped="0" tests="2" time="0.068" timestamp="2018-09-05T20:33:50">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="nb.wait.for.caches" value="true" />
@@ -38,7 +38,7 @@
     <property name="user.name" value="willyp" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Implementations.Messaging.MessageWithPayloadTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/willyp/NetBeansProjects/HecCore/build/test/results/TEST-Implementations.Messaging.MessageWithPayloadTest.xml crashfile=/Users/willyp/NetBeansProjects/HecCore/build/junitvmwatcher3180329546629294338.properties propsfile=/Users/willyp/NetBeansProjects/HecCore/build/junit6598888301886677016.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Implementations.Validation.ErrorMessageTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/willyp/NetBeansProjects/HecCore/build/test/results/TEST-Implementations.Validation.ErrorMessageTest.xml crashfile=/Users/willyp/NetBeansProjects/HecCore/build/junitvmwatcher580932263610884836.properties propsfile=/Users/willyp/NetBeansProjects/HecCore/build/junit3545990779398622300.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -46,7 +46,7 @@
     <property name="ap.supported.internal" value="true" />
     <property name="java.failonerror" value="true" />
     <property name="libs.jaxws21.javadoc" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/docs/jaxws-api-doc.zip" />
-    <property name="includes" value="Implementations/Messaging/**/*Test.java" />
+    <property name="includes" value="Implementations/Validation/**/*Test.java" />
     <property name="user.country" value="US" />
     <property name="addExports:java.desktop/sun.awt" value="ALL-UNNAMED" />
     <property name="javadoc.encoding" value="UTF-8" />
@@ -322,8 +322,8 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
   </properties>
-  <testcase classname="Implementations.Messaging.MessageWithPayloadTest" name="testGetPayload" time="0.001" />
-  <testcase classname="Implementations.Messaging.MessageWithPayloadTest" name="testGetNulPayload" time="0.0" />
+  <testcase classname="Implementations.Validation.ErrorMessageTest" name="testGetErrorLevel" time="0.002" />
+  <testcase classname="Implementations.Validation.ErrorMessageTest" name="testGetMessage" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

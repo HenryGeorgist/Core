@@ -45,7 +45,6 @@ public class MessageHubTest {
      */
     @Test
     public void testGetInstance() {
-        System.out.println("getInstance");
         MessageHub expResult = mh;
         MessageHub result = MessageHub.getInstance();
         assertEquals(expResult, result);
@@ -56,7 +55,6 @@ public class MessageHubTest {
      */
     @Test
     public void testRegister() {
-        System.out.println("register");
         MessageReceiver reciever = new Implementations.Messaging.MessageReceiver();
         MessageHub instance = mh;
         instance.register(reciever);
@@ -68,7 +66,6 @@ public class MessageHubTest {
      */
     @Test
     public void testSendMessage() {
-        System.out.println("sendMessage");
         Object sender = this;
         Message incomingMessage = new Implementations.Messaging.Message("This is a cool message");
         MessageHub instance = mh;

@@ -5,7 +5,6 @@
  */
 package Implementations.Messaging;
 
-import Interfaces.Messaging.Message;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -26,18 +25,15 @@ public class MessageWithSenderTest {
      */
     @Test
     public void testGetSender() {
-        System.out.println("getSender");
         Object expResult = this;
         Object result = mws.getSender();
         assertEquals(expResult, result);
     }
-
     /**
      * Test of getMessage method, of class MessageWithSender.
      */
     @Test
     public void testGetMessage() {
-        System.out.println("getMessage");
         String expResult = MESSAGE;
         String result = mws.getMessage().getMessage();
         assertEquals(expResult, result);

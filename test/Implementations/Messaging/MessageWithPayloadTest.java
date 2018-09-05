@@ -43,7 +43,6 @@ public class MessageWithPayloadTest {
      */
     @Test
     public void testGetPayload() {
-        System.out.println("getPayload");
         MessageWithPayload<Integer> instance = new MessageWithPayload("This has a payload", 1234);
         Optional expResult = Optional.of(1234);
         Optional result = instance.getPayload();
@@ -54,7 +53,6 @@ public class MessageWithPayloadTest {
      */
     @Test
     public void testGetNulPayload() {
-        System.out.println("getNullPayload");
         MessageWithPayload<Integer> instance = new MessageWithPayload("This has a Null payload", null);
         Optional expResult = Optional.empty();
         Optional result = instance.getPayload();
